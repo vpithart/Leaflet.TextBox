@@ -21,8 +21,8 @@ var TextBox = {
 
     onRemove: function (map) {
         map = map || this._map;
-        if (map && this._textNode)
-            map._pathRoot.removeChild(this._textNode);
+        if (this._textNode)
+            this._textNode.remove()
         __onRemove.call(this, map);
     },
 

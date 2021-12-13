@@ -1,8 +1,8 @@
 # Leaflet.TextBox
-Add a text box to the leaflet map using the SVG renderer.
+Adds a text box to the leaflet map using the SVG renderer.
 
 ## Leaflet version
-The example is develped against Leaflet 1.0.
+Compatible with Leaflet 1.7.
 
 ## Usage
 The library works by adding a `setText` method to the `Rectangle` layers.
@@ -27,7 +27,10 @@ See the example in `example/index.html`.
 
 ## Changelog
 ### `0.1.0`
-Initial release
+- Initial release
+
+### `1.0.0`
+- Updated to work with leaflet v1.7.1
 
 ## Licence
 MIT
